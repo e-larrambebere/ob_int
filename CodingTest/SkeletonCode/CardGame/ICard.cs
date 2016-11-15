@@ -7,5 +7,8 @@ namespace SkeletonCode.CardGame
 {
 	public interface ICard
 	{
+        CardSuitEnum CardSuit { get; }
+
+        CardValueEnum Value { get; }
 	}
 }

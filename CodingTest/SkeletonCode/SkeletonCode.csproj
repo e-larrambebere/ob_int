@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardGame\Card.cs" />
+    <Compile Include="CardGame\CardSuitEnum.cs" />
+    <Compile Include="CardGame\CardValueEnum.cs" />
+    <Compile Include="CardGame\Default52PackOfCards.cs" />
     <Compile Include="CardGame\ICard.cs" />
     <Compile Include="CardGame\IPackOfCards.cs" />
     <Compile Include="CardGame\IPackOfCardsCreator.cs" />
