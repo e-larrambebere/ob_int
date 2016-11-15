@@ -37,11 +37,9 @@ namespace SkeletonCode.CardGame
 
         public void Shuffle()
         {
-            Random entropyGenerator = new Random();
-
             var list = _cardStack.ToList();
 
-            var result = list.OrderBy(x => entropyGenerator.Next());
+            var result = list.OrderBy(x => Guid.NewGuid());
 
             _cardStack = new Stack<ICard>(result);
         }
